@@ -1,0 +1,26 @@
+@import '../../Variables.scss';
+
+.container {
+  padding: 0 22px 0 18px;
+  margin-bottom: 26px;
+  text-align: end;
+
+  p {
+    font-size: 20px;
+    color: $tertiary-color-font;
+    margin: 0 0 1rem;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+
+    p {
+      font-size: 36px;
+      color: $secondary-color-font;
+    }
+  }
+}

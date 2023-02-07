@@ -7,6 +7,7 @@ export function Button(props: any) {
         style={{ backgroundColor: props.backgroundColor, color: props.color }}
         className={`${styles.btn} ${styles.boxSize}`}
       >
+        {props.icon && <img className={styles.img} src={props.icon} />}
         {props.name}
       </button>
     </div>

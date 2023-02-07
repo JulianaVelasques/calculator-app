@@ -13,10 +13,14 @@
     -moz-box-shadow: inset 0px -1px 18px -5px rgba(94, 89, 89, 0.3);
     box-shadow: inset 0px -1px 18px -5px rgba(94, 89, 89, 0.3);
   }
+
+  .img {
+    margin-top: 6px;
+  }
 }
 
 .boxSize {
   border-radius: 50%;
-  width: 64px;
-  height: 64px;
+  width: 75px;
+  height: 75px;
 }

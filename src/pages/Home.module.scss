@@ -5,8 +5,18 @@
   height: 566px;
   background-color: $violet-dark;
   border-radius: 48px;
+  padding: 56px 32px 32px 32px;
 
   -webkit-box-shadow: 0px 47px 56px 3px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 0px 47px 56px 3px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 47px 56px 3px rgba(0, 0, 0, 0.58);
+
+  .btnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+    row-gap: 12px;
+    column-gap: -12px;
+    justify-items: center;
+  }
 }
